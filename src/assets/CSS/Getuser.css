@@ -1,0 +1,192 @@
+.head{
+    width:100%;
+    height: 100px;
+    align-items: center;
+}
+.HeadRight{
+    margin-left: 75%;
+    line-height: 100px;
+    color: rgb(14, 14, 14);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.content{
+    margin-left: 300px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position:fixed;
+    overflow-y: scroll;
+}
+.SearchBox{
+    width:100%;
+    height:100px;
+    text-align: center;
+    display: flex;
+
+}
+
+select {
+    height:50px;
+    width:150px;
+    outline: 0;
+    background: #fbfbfb8a;
+    color: #111111;
+    font-weight: 500;
+    font-size: 17px;
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 50px;
+    margin-left: 200px;
+    transition: 0.3s;
+  }
+select:hover{
+    background: #fbfbfb36;
+    height:55px;
+    width:160px;
+}
+  .inputText{
+    width: 700px;
+    height: 50px;
+    line-height: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    border: none;
+}
+.button_Class{
+    background-color:#679eaa;
+    color:white;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    border:0;
+    font-size: 20px;
+    box-sizing: content-box;				
+    border-radius: 50px;
+    transition: 0.4s;
+    margin-left: 100px;
+}
+.button_Class:hover{
+    background-color: #679eaa7c;
+    width: 120px;
+}
+.InputBoxTitle{
+    height: 100px;
+    width:1300px;
+    color: #696969;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 100px;
+    margin-left: 600px;
+    letter-spacing: 5px;
+  }
+  #overlay {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    /* IE9以下不支持rgba模式 */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 兼容IE8及以下 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+    display: none;
+  }
+  .popup {
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 400px;
+    width:1200px;
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(119, 118, 118);
+    background-color: #f5f5f5fe;
+  }
+  /* 弹出框的标题 */
+  .popup_title {
+    height: 200px;
+    width:1200px;
+    color: #696969;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* 弹出框的按钮栏 */
+  .popup_btn {
+    flex-direction: row;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:150px;
+  }
+  /* 弹出框的按钮 */
+  .popup_btn button {
+    margin:auto;
+    color:white;
+    font-weight: 600;
+    width: 200px;
+    height: 60px;
+    border:0;
+    font-size: 20px;
+    box-sizing: content-box;				
+    border-radius: 50px;
+    transition: 0.4s;
+  }
+  .popup_btn button:hover{
+    width: 220px;
+    height: 65px;
+    font-size: 22px;
+    border-radius: 20px;
+  }
+  .InnerBox{
+    height:450px;
+    width:1200px;
+    display: flex;
+    flex-direction: row;
+}
+.InnerBox2{
+    height:500px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HintBox{
+    height: 70px;
+    width:400px;
+}
+.HintBox div{
+    float:left;
+    height: 70px;
+    color: #4d4c4c;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 70px;
+}
+.HintBox2{
+    height: 60px;
+    width:300px;
+    background-color: #a3a3a34c;
+    border-radius: 50px;
+}
+.HintBox2 div{
+    margin-left: 20px;
+    float:left;
+    height: 60px;
+    color: #464646;
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 60px;
+}
+
+  

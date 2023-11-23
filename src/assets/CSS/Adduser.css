@@ -1,0 +1,82 @@
+
+.InputBox{
+    width: 1000px;;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(119, 118, 118);
+    background-color: #f5f5f5ba;
+    margin-left: 10%;
+
+}
+.InputBoxTitle{
+  height: 50px;
+  width:100%;
+  color: #4e4e4e;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InnerBox{
+    height:350px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.InnerBox2{
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HintBox{
+    height: 50px;
+    width:100%;
+}
+.HintBox div{
+    margin-left: 100px;
+    float:left;
+    height: 50px;
+    color: #070707;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 50px;
+}
+.inputText{
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 30px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    border: none;
+    
+}
+.inputText:focus{
+    outline: none;
+    background-color: rgb(218, 230, 234);
+}
+.button_Class{
+    background-color:#000000;
+    color:white;
+    font-weight: 550;
+    width: 20%;
+    height: 40px;
+    border:0;
+    font-size: 18px;
+    box-sizing: content-box;				
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.button_Class:hover{
+    background-color: #679eaa7c;
+    width: 25%;
+    height: 45px;
+}
